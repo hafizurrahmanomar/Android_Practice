@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/blur_background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+<!--        ==ScrollView Body Start-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--        LinearLayout Body for ScrollView start-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heading"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="#000000"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cover"
+                android:scaleType="centerCrop"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/beaytyOfBangladesh"
+                android:gravity="left"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="20dp"
+                android:background="#009688"
+                android:layout_marginBottom="10dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="20"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cover"
+                    android:layout_weight="10"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="30dp"
+                    />
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cover_two"
+                    android:layout_weight="10"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="30dp"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here"
+                android:padding="5dp"
+
+                />
+
+            <!--        ==LinearLayout Body for ScrollView End-->
+
+        </LinearLayout>
+
+        <!--        ==ScrollView Body end-->
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

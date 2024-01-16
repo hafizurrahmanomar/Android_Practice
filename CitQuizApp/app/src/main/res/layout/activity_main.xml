@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/quiz"
+    android:padding="10dp"
+    />
+
+  <TextView
+      android:id="@+id/tvScore"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/quiz"
+      android:gravity="center"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+
+      />
+
+  <TextView
+      android:id="@+id/tvQuestion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/question"
+      android:layout_margin="8dp"
+      android:gravity="center"
+      android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+
+      />
+
+  <RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+
+  <RadioButton
+    android:id="@+id/option1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/option_1"
+    android:includeFontPadding="false"
+      />
+
+  <RadioButton
+      android:id="@+id/option2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:includeFontPadding="false"
+      android:text="@string/option_2"
+      />
+
+  <RadioButton
+      android:id="@+id/option3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/option_3"
+      android:includeFontPadding="false"/>
+
+  <RadioButton
+      android:id="@+id/option4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/option_4"
+      android:includeFontPadding="false"/>
+
+
+</RadioGroup>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/btn_check"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/btn_background"
+      android:text="@string/check_answer"
+      android:textColor="#ffffff"
+      android:padding="16dp"
+      android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+
+      />
+
+
+
+
+  </LinearLayout>

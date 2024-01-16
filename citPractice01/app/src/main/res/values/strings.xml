@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">citPractice01</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a accumsan neque. Fusce bibendum gravida ipsum id feugiat. Quisque quam ipsum, sollicitudin nec purus a, lobortis viverra enim. Duis ornare, mi nec vehicula convallis, est lorem blandit dui, et blandit quam nisi ut metus. Donec luctus congue leo, ac dapibus tellus vehicula non. Nam malesuada erat porta diam blandit, in commodo metus pellentesque. Ut mattis dapibus nulla a sagittis. Nunc ornare, metus nec elementum blandit, neque metus egestas mauris, eu suscipit ex nisi sed erat. Mauris orci mauris, ultrices eu dapibus nec, viverra vel libero. Etiam gravida velit vel arcu fringilla ornare. Nam convallis eget nisl eget egestas.</string>
+    <string name="hafiz">Hafizur Rahman Omar</string>
+    <string name="fllow_me">Fllow Me</string>
+    <string name="call_me">Call Me</string>
+    <string name="message_me">Message Me</string>
+</resources>

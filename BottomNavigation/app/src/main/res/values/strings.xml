@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="About_fragment">About Me fragment</string>
+    <string name="Contact_fragment">Contact Me fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+</resources>

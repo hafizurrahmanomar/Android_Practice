@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">fragmentTabLayout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home fragment</string>
+</resources>

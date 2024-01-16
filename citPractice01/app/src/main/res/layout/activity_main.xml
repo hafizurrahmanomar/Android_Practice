@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp"
+    android:background="#F1EAEA"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hafiz"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:gravity="center"
+                android:text="@string/hafiz"
+                android:textColor="#E91E63"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+
+                <TextView
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:id="@+id/tvDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:padding="5sp"
+                    android:text="@string/description"
+                    android:textAlignment="center"
+                    android:textColor="#03A9F4"
+                    android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="3"
+                >
+
+                <ImageView
+                    android:id="@+id/btnFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/facebook"
+                    android:layout_weight="1"
+                    />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/telegram"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/linkedin"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/fllowMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fllow_me"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_back"
+
+                />
+
+            <Button
+                android:id="@+id/callMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/call_me"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_back"
+
+                />
+
+            <Button
+                android:id="@+id/messageMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_me"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_back"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+        </LinearLayout>
+

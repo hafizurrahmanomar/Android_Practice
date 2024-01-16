@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_shade2"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+<<<<<<< HEAD
+=======
+        android:id="@+id/imgBook"
+>>>>>>> 029bcced7b350b5462860a1626508529e9c30d7d
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingBottom="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/book" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="My Book"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="normal"
+
+            />
+
+        <TextView
+            android:id="@+id/tvWriterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Hafizur Rahman Omar"
+            android:textSize="12sp"
+            android:textStyle="normal"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+<<<<<<< HEAD
+=======
+            android:id="@+id/buttonGetBook"
+>>>>>>> 029bcced7b350b5462860a1626508529e9c30d7d
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get thisBook" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
