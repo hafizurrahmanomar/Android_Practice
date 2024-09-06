@@ -2,8 +2,10 @@ package com.webappdeveloper.javaabstract;
 
 public abstract class Employee {
    private final String Name;
-    private final String Position;
+   private final String Position;
    private final Float Salary;
+
+   // if abstract method has no body
    public abstract float calculateTax();
    public abstract float finalSalary();
 
